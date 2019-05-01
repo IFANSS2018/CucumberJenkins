@@ -5,7 +5,10 @@ import java.util.Map;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
 import org.openqa.selenium.chrome.ChromeDriver;
+
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -16,8 +19,9 @@ public class AddCustomer {
 	static WebDriver driver;
 	@Given("The user is in add customer page")
 	public void the_user_is_in_add_customer_page() {
-	
-	driver.get("http://demo.guru99.com/telecom/addcustomer.php");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\1\\eclipse-sivamani\\WebTable\\driver\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get("http://demo.guru99.com/telecom/addcustomer.php");
 	}
 	
 	/*@When("The user fill the valid customer details")

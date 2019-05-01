@@ -13,7 +13,7 @@ public class AddTariff {
 	static WebDriver driver;
 	@Given("the user is in add triff plan")
 	public void the_user_is_in_add_triff_plan() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\1\\eclipse-sivamani\\Pomclass\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\1\\eclipse-sivamani\\WebTable\\driver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://demo.guru99.com/telecom/addtariffplans.php");
 	}

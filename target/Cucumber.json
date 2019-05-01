@@ -1,0 +1,208 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "to-test-add-customer-functionality;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat cts.AddCustomer.the_user_is_in_add_customer_page(AddCustomer.java:20)\r\n\tat ✽.The user is in add customer page(src/test/resources/feature/AddCust.feature:7)\r\n",
+              "duration": 2632115,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "The user is in add customer page",
+            "match": {
+              "location": "AddCustomer.the_user_is_in_add_customer_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14882,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "The user fill the valid customer details",
+            "match": {
+              "location": "AddCustomer.the_user_fill_the_valid_customer_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "fname",
+                  "siva"
+                ]
+              },
+              {
+                "cells": [
+                  "lname",
+                  "mani"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "siva@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "address",
+                  "chennai"
+                ]
+              },
+              {
+                "cells": [
+                  "phnum",
+                  "7894561233"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9750,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "The user click the submit button",
+            "match": {
+              "location": "AddCustomer.the_user_click_the_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8211,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "The user should see the customer id generate",
+            "match": {
+              "location": "AddCustomer.the_user_should_see_the_customer_id_generate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mani"
+          },
+          {
+            "name": "@muthu"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "to-test-add-customer-functionality;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat cts.AddCustomer.the_user_is_in_add_customer_page(AddCustomer.java:20)\r\n\tat ✽.The user is in add customer page(src/test/resources/feature/AddCust.feature:19)\r\n",
+              "duration": 227340,
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "The user is in add customer page",
+            "match": {
+              "location": "AddCustomer.the_user_is_in_add_customer_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7184,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "The user fill the valid customer details",
+            "match": {
+              "location": "AddCustomer.the_user_fill_the_valid_customer_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "fname",
+                  "kalai"
+                ]
+              },
+              {
+                "cells": [
+                  "lname",
+                  "vani"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "siva@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "address",
+                  "chennai"
+                ]
+              },
+              {
+                "cells": [
+                  "phnum",
+                  "456664444"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11290,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "The user click the submit button",
+            "match": {
+              "location": "AddCustomer.the_user_click_the_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11290,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "The user should see the customer id generate",
+            "match": {
+              "location": "AddCustomer.the_user_should_see_the_customer_id_generate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rohit"
+          }
+        ]
+      }
+    ],
+    "name": "To test add customer functionality",
+    "description": "",
+    "id": "to-test-add-customer-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/AddCust.feature",
+    "tags": []
+  }
+]

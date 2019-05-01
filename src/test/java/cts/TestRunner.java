@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src\\test\\resources\\feature",tags= {"~@rohit","~@kalai"},glue="cucumber2",plugin="html:target",monochrome=true)
+@CucumberOptions(features="src\\test\\resources\\feature\\AddCust.feature",plugin= {"html:target","rerun:target/failed.txt"},glue="cts",strict=true,monochrome=true)
 public class TestRunner {
 
 }
